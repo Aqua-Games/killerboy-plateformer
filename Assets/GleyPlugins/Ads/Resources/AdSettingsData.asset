@@ -17,9 +17,35 @@ MonoBehaviour:
     advertiserName: Unity
     bannerSettings:
       adType: 1
-      orderAndroid: 1
-      orderiOS: 1
-      orderWindows: 1
+      orderAndroid: 0
+      orderiOS: 0
+      orderWindows: 0
+      weightAndroid: 0
+      weightiOS: 0
+      weightWindows: 0
+    interstitialSettings:
+      adType: 2
+      orderAndroid: 2
+      orderiOS: 2
+      orderWindows: 2
+      weightAndroid: 0
+      weightiOS: 0
+      weightWindows: 0
+    rewardedSettings:
+      adType: 3
+      orderAndroid: 2
+      orderiOS: 2
+      orderWindows: 2
+      weightAndroid: 0
+      weightiOS: 0
+      weightWindows: 0
+  - advertiser: 0
+    advertiserName: Admob
+    bannerSettings:
+      adType: 1
+      orderAndroid: 0
+      orderiOS: 0
+      orderWindows: 0
       weightAndroid: 1
       weightiOS: 1
       weightWindows: 1
@@ -90,14 +116,14 @@ MonoBehaviour:
       hasRewarded: 1
       directedForChildren: 0
   - advertiser: 0
-    useSDK: 0
+    useSDK: 1
     preprocessorDirective: USE_ADMOB
     sdkLink: https://github.com/googleads/googleads-mobile-unity/releases
     platformSettings:
     - platform: 0
-      enabled: 0
+      enabled: 1
       appId:
-        id: 
+        id: ca-app-pub-6800303501442436~2718619605
         displayName: App ID
         notRequired: 0
       idBanner:
@@ -105,11 +131,11 @@ MonoBehaviour:
         displayName: Banner ID
         notRequired: 0
       idInterstitial:
-        id: 
+        id: ca-app-pub-6800303501442436/9474518078
         displayName: Interstitial ID
         notRequired: 0
       idRewarded:
-        id: 
+        id: ca-app-pub-6800303501442436/6553922834
         displayName: Rewarded Video ID
         notRequired: 0
       hasBanner: 1
